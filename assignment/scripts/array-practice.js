@@ -120,5 +120,8 @@ console.log('sortedFoodsArray', foodsArray)
 // let combined = ['pasta','chicken','steak','fish', 'cat', 'bird', 'dog'];
 // console.log('combined arrays are',combined);
 
+let combinedArray = [...foodsArray, ...animalArray];
+console.log(combinedArray)
+
 //using the spread operator 
 
